@@ -141,6 +141,7 @@ Skills are reusable playbooks invoked by Claude Code during the build.
 
 | Skill | When to use |
 |-------|------------|
+| `project-kickoff` | At the very start — interviews you question by question to fill the minimum docs before any code |
 | `mvp-scope-guard` | Before adding any new feature — checks if it belongs in MVP |
 | `api-review` | After drafting API routes — reviews naming, auth, and payload clarity |
 | `ui-consistency` | After building screens — checks mobile-first structure and UX coherence |

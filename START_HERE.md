@@ -7,15 +7,22 @@ Copy these items to the root of your project:
 - `.claude/skills/`
 - `.claude/agents/`
 
-## 2) Fill the minimum docs first
-Before coding, fill at least:
+## 2) Fill the minimum docs (via guided interview)
+Use the `project-kickoff` skill — Claude will ask you one question at a time and fill the docs for you:
+
+```text
+/project-kickoff
+```
+
+This covers at minimum:
 - `docs/00_overview.md`
 - `docs/01_product_vision.md`
 - `docs/02_mvp_features.md`
 - `docs/04_tech_architecture.md`
 - `docs/20_mvp_scope_guard.md`
+- `CLAUDE.md` project-specific inputs
 
-## 3) First prompt to Claude Code
+## 3) First prompt to Claude Code (if you filled docs manually)
 Use:
 
 ```text
